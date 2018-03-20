@@ -6,6 +6,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <div className="top">
+        </div>
         <header className="app-header">
           <h1 className="app-title">Dillon Ridge VISTAS</h1>
         </header>
@@ -13,6 +15,8 @@ class App extends Component {
         <footer className="app-footer">
           <h1 className="app-title">Leasing Now for the Summer of 2018</h1>      
         </footer>
+        <div className="top">
+        </div>
       </div>
     );
   }
