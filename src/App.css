@@ -1,5 +1,6 @@
 * {
   font-family: 'Libre Baskerville', serif;
+  margin: 0;
 }
 
 .app-header {
@@ -12,6 +13,10 @@
   padding: 20px;
 }
 
+.welcome-image {
+  border: 5px solid #7C524C;
+}
+
 .app-footer {
   align-items: center;
   background-color: #678045;
@@ -19,6 +24,7 @@
   display: flex;
   justify-content: center;
   height: 150px;
+  margin-top: -4px;
   padding: 20px;
 }
 
