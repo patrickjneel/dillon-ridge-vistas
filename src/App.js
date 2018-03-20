@@ -1,19 +1,18 @@
 import React, { Component } from 'react';
+import { Route } from 'react-router-dom';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Dillon Ridge Vistas</h1>
+        <header className="app-header">
+          <h1 className="app-title">Dillon Ridge VISTAS</h1>
         </header>
           <img src={require('./assets/dillon.svg')} alt="logo" />
-          <img src={require('./assets/first.svg')} alt="logo" />
-          <img src={require('./assets/second.svg')} alt="logo" />
-          <img src={require('./assets/third.svg')} alt="logo" />
-        <footer>
-          Stuff goes here
+
+        <footer className="app-footer">
+          <h1 className="app-title">Leasing Now for the Summer of 2018</h1>      
         </footer>
       </div>
     );
