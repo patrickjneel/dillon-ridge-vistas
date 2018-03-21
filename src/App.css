@@ -22,7 +22,7 @@
 
 .welcome-area {
   position: relative;
-  background-color: #fee9a9;
+  background-color: #D9D9D9;
   z-index: -10;
 
 }
@@ -37,16 +37,14 @@
 
 .info-area {
   align-items: center;
-  background-color: #fee9a9;
+  background-color: #D9D9D9;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
 .app-footer {
-  background-color: #fee9a9;
+  background-color: #D9D9D9;
   height: 150px;
   
 }
-
-
