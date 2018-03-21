@@ -1,20 +1,19 @@
 import React, { Component } from 'react';
+import { Route } from 'react-router-dom';
+import ViewFloorPlans from './components/ViewFloorPlans';
+import Contact from './components/Contact';
+import NavArea from './components/NavArea';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Dillon Ridge Vistas</h1>
-        </header>
-          <img src={require('./assets/dillon.svg')} alt="logo" />
-          <img src={require('./assets/first.svg')} alt="logo" />
-          <img src={require('./assets/second.svg')} alt="logo" />
-          <img src={require('./assets/third.svg')} alt="logo" />
-        <footer>
-          Stuff goes here
-        </footer>
+        <div className="top"></div>
+          <Route exact path="/" component={NavArea} key="NavArea" />
+          <Route exact path="/viewfloorplans" component={ViewFloorPlans} key="ViewFloorPlans" />
+          <Route exact path="/contact" component={Contact} key="Contact" />
+        <div className="top"></div>
       </div>
     );
   }
