@@ -6,13 +6,14 @@
 .all-info {
   display: flex;
   flex-direction: row;
+  height: 73vh;
 }
 
 .welcome-area {
-  position: relative;
+  align-items: center;
   background-color: #D9D9D9;
-  z-index: -10;
-
+  display: flex;
+  justify-content: center;
 }
 
 .welcome-image {
@@ -27,12 +28,19 @@
   align-items: center;
   background-color: #D9D9D9;
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
+  width: 100%;
 }
 
-.app-footer {
-  background-color: #D9D9D9;
-  height: 150px;
-  
+.button-links {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  width: 85%;
+}
+
+.nav-links {
+  color: black;
+  text-decoration: none;
 }

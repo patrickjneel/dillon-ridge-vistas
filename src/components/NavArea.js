@@ -5,8 +5,6 @@ import './nav-area.css';
 const NavArea = () => {
   return (
     <div>
-      <header className="app-footer">
-      </header>
       <div className="all-info">
         <div className="welcome-area">
         <div className="welcome-image"></div>
@@ -19,8 +17,6 @@ const NavArea = () => {
           <NavLink className="nav-links" to='/contact'>Contact</NavLink>      
         </div>
       </div>
-      <footer className="app-footer">
-      </footer>
       </div>
     </div>
   )
