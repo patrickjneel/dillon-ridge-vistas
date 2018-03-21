@@ -1,5 +1,5 @@
 .app-title {
-  color: white;
+  color: #5a5a5a;
   height: 125px;
 }
 
@@ -11,7 +11,7 @@
 
 .welcome-area {
   align-items: center;
-  background-color: #D9D9D9;
+  background-color: #f8f4ec;
   display: flex;
   justify-content: center;
 }
@@ -26,7 +26,7 @@
 
 .info-area {
   align-items: center;
-  background-color: #D9D9D9;
+  background-color: #f8f4ec;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -40,7 +40,14 @@
   width: 85%;
 }
 
+.nav-links:hover {
+  border-color: transparent;
+  box-shadow: 0 0 0 2px #5d4e48;
+}
+
 .nav-links {
-  color: black;
+  color: #5a5a5a;
+  font-size: 18px;
+  padding: 5px;
   text-decoration: none;
 }
