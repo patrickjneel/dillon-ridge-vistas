@@ -6,31 +6,47 @@
 .top {
   background-image: url('./assets/wood2.jpeg');
   background-size: cover;
-  height: 77px;
+  height: 110px;
   width: 100%;
 }
 
-.app-header {
-  align-items: center;
-  background-color: #678045;
+.app-title {
   color: white;
-  display: flex;
-  justify-content: center;
   height: 125px;
+}
+
+.all-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.welcome-area {
+  position: relative;
+  background-color: #fee9a9;
+  z-index: -10;
+
 }
 
 .welcome-image {
-  border: 5px solid #7C524C;
+  background-image: url('./assets/dillon.svg');
+  background-size: cover;
+  height: 213px;
+  margin-left: 10px;
+  width: 653px;
+}
+
+.info-area {
+  align-items: center;
+  background-color: #fee9a9;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .app-footer {
-  align-items: center;
-  background-color: #678045;
-  color: white;
-  display: flex;
-  justify-content: center;
-  height: 125px;
-  margin-top: -4px;
+  background-color: #fee9a9;
+  height: 150px;
+  
 }
 
 

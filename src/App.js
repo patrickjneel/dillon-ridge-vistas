@@ -8,12 +8,19 @@ class App extends Component {
       <div className="App">
         <div className="top">
         </div>
-        <header className="app-header">
-          <h1 className="app-title">Dillon Ridge VISTAS</h1>
+        <header className="app-footer">
         </header>
-          <img className="welcome-image" src={require('./assets/dillon.svg')} alt="logo" />
+        <div className="all-info">
+          <div className="welcome-area">
+            <div className="welcome-image"></div>
+            <div className="plaid-image"></div>
+          </div>
+          <div className="info-area">
+            <h1 className="app-title">Dillon Ridge VISTAS</h1>
+            <h1 className="app-title">Leasing Now for the Summer of 2018</h1>      
+          </div>
+        </div>
         <footer className="app-footer">
-          <h1 className="app-title">Leasing Now for the Summer of 2018</h1>      
         </footer>
         <div className="top">
         </div>
