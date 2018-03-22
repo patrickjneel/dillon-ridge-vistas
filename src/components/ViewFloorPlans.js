@@ -41,6 +41,7 @@ class ViewFloorPlans extends Component {
                src={require('../assets/second.svg')}
                onClick={this.openModal}
           />
+        </div>
           <Modal
             isOpen={this.state.modalIsOpen}
             onAfterOpen={this.afterOpenModal}
@@ -50,16 +51,17 @@ class ViewFloorPlans extends Component {
             <button onClick={this.closeModal}>Close</button>
             <div className="modal-title1">2 Bedroom - 1 Bathroom</div>
             <img className="modal-img" 
-               src={require('../assets/second.svg')} />
+                 src={require('../assets/second.svg')} 
+            />
           </Modal>
 
-        </div>
         <div className="model">
           <h2 className="floor-title">2 Bedroom - 2 Bathroom</h2>
           <img className="floor-img" 
                src={require('../assets/third.svg')}
                onClick={this.openModal} 
           />
+        </div>
           <Modal
             isOpen={this.state.modalIsOpen}
             onAfterOpen={this.afterOpenModal}
@@ -71,7 +73,6 @@ class ViewFloorPlans extends Component {
             <img className="modal-img" 
                src={require('../assets/third.svg')} />
           </Modal>
-        </div>
       </div>
     );
   }
