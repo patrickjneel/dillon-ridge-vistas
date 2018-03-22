@@ -60,7 +60,8 @@ class ViewFloorPlans extends Component {
             onRequestClose={this.closeModal1}
             style={customStyles}
           >
-            <button onClick={this.closeModal1}>Close</button>
+            
+            <span class="close" onClick={this.closeModal1}>&times;</span>
             <div className="modal-title1">2 Bedroom - 1 Bathroom</div>
             <img className="modal-img" 
                  src={require('../assets/second.svg')} 
@@ -80,7 +81,7 @@ class ViewFloorPlans extends Component {
             onRequestClose={this.closeModal2}
             style={customStyles}
           >
-            <button onClick={this.closeModal2}>Close</button>
+            <span class="close" onClick={this.closeModal2}>&times;</span>
             <div className="modal-title2">2 Bedroom - 2 Bathroom</div>
             <img className="modal-img" 
                src={require('../assets/third.svg')} />
