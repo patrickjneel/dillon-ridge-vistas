@@ -4,11 +4,12 @@ import ReactModal from 'react-modal';
 
 const customStyles = {
   content : {
-    top: '50%',
+    border: '4px solid #00abf0',
+    height: '75%',
     left: '50%',
+    top: '50%',
     transform: 'translate(-50%, -50%)',
-    width: '75%',
-    height: '75%'
+    width: '75%'
   }
 };
 
