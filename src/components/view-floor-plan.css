@@ -20,8 +20,13 @@
 }
 
 .floor-title {
+  display: block;
   margin: 5px;
   padding: 5px;
+}
+
+.img-desc {
+  text-align: center;
 }
 
 .floor-img {
