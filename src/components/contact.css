@@ -33,15 +33,15 @@
   box-shadow: 7px 7px 20px #555;
 }
 .receiver {
-  right: 150px;
+  right: 100px;
   top: 191px;
 }
 .sender {
-  right: 150px;
+  right: 100px;
   top: 237px;
 }
 
 .location {
-  right: 110px;
+  right: 60px;
   top: 291px;
 }
