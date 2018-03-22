@@ -29,5 +29,17 @@
   width: 600px;
 }
 
+button {
+  float: right;
+}
+
+.modal-title1 {
+  font-size: 24px;
+}
+
+.modal-title2 {
+  font-size: 24px;
+}
+
 
 
