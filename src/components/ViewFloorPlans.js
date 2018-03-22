@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './view-floor-plan.css';
-import Modal from 'react-modal';
+import ReactModal from 'react-modal';
 
 const customStyles = {
   content : {
@@ -16,18 +16,29 @@ class ViewFloorPlans extends Component {
   constructor() {
     super();
     this.state = {
-      modalIsOpen: false
+      showModal1: false,
+      showModal2: false
     };
-    this.openModal = this.openModal.bind(this)
-    this.closeModal = this.closeModal.bind(this)
+    this.openModal1 = this.openModal1.bind(this)
+    this.openModal2 = this.openModal2.bind(this)
+    this.closeModal1 = this.closeModal1.bind(this)
+    this.closeModal2 = this.closeModal2.bind(this)
   }
 
-  openModal() {
-    this.setState({modalIsOpen: true});
+  openModal1() {
+    this.setState({showModal1: true});
   }
 
-  closeModal() {
-    this.setState({modalIsOpen: false});
+  openModal2() {
+    this.setState({showModal2: true});
+  }
+
+  closeModal1() {
+    this.setState({showModal1: false})
+  }
+
+  closeModal2() {
+    this.setState({showModal2: false})
   }
 
   render () {
@@ -39,40 +50,38 @@ class ViewFloorPlans extends Component {
           <h2 className="floor-title">2 Bedroom - 1 Bathroom</h2>
           <img className="floor-img" 
                src={require('../assets/second.svg')}
-               onClick={this.openModal}
+               onClick={this.openModal1}
           />
         </div>
-          <Modal
-            isOpen={this.state.modalIsOpen}
-            onAfterOpen={this.afterOpenModal}
-            onRequestClose={this.closeModal}
+          <ReactModal
+            isOpen={this.state.showModal1}
+            onRequestClose={this.closeModal1}
             style={customStyles}
           >
-            <button onClick={this.closeModal}>Close</button>
+            <button onClick={this.closeModal1}>Close</button>
             <div className="modal-title1">2 Bedroom - 1 Bathroom</div>
             <img className="modal-img" 
                  src={require('../assets/second.svg')} 
             />
-          </Modal>
+          </ReactModal>
 
         <div className="model">
           <h2 className="floor-title">2 Bedroom - 2 Bathroom</h2>
           <img className="floor-img" 
                src={require('../assets/third.svg')}
-               onClick={this.openModal} 
+               onClick={this.openModal2} 
           />
         </div>
-          <Modal
-            isOpen={this.state.modalIsOpen}
-            onAfterOpen={this.afterOpenModal}
-            onRequestClose={this.closeModal}
+          <ReactModal
+            isOpen={this.state.showModal2}
+            onRequestClose={this.closeModal2}
             style={customStyles}
           >
-            <button onClick={this.closeModal}>Close</button>
+            <button onClick={this.closeModal2}>Close</button>
             <div className="modal-title2">2 Bedroom - 2 Bathroom</div>
             <img className="modal-img" 
                src={require('../assets/third.svg')} />
-          </Modal>
+          </ReactModal>
       </div>
     );
   }
