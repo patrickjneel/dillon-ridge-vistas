@@ -10,8 +10,8 @@ const customStyles = {
     bottom: 'auto',
     marginRight: '-50%',
     transform: 'translate(-50%, -50%)',
-    width: '100%',
-    height: '100%'
+    width: '75%',
+    height: '75%'
   }
 };
 
@@ -52,15 +52,32 @@ class ViewFloorPlans extends Component {
             contentLabel="ROOOMMMM"
           >
             <h2 ref={subtitle => this.subtitle = subtitle}></h2>
-            <button onClick={this.closeModal}>close</button>
+            <button onClick={this.closeModal}>Close</button>
             <div>2 Bedroom - 1 Bathroom</div>
             <img className="modal-img" 
                src={require('../assets/second.svg')} />
           </Modal>
+
         </div>
         <div className="model">
           <h2 className="floor-title">2 Bedroom - 2 Bathroom</h2>
-          <img className="floor-img" src={require('../assets/third.svg')} />
+          <img className="floor-img" 
+               src={require('../assets/third.svg')}
+               onClick={this.openModal} 
+          />
+          <Modal
+            isOpen={this.state.modalIsOpen}
+            onAfterOpen={this.afterOpenModal}
+            onRequestClose={this.closeModal}
+            style={customStyles}
+            contentLabel="ROOOMMMM"
+          >
+            <h2 ref={subtitle => this.subtitle = subtitle}></h2>
+            <button onClick={this.closeModal}>Close</button>
+            <div>2 Bedroom - 2 Bathroom</div>
+            <img className="modal-img" 
+               src={require('../assets/third.svg')} />
+          </Modal>
         </div>
       </div>
     );
