@@ -53,6 +53,7 @@ class ViewFloorPlans extends Component {
                src={require('../assets/second.svg')}
                onClick={this.openModal1}
           />
+          <h4 className="img-desc">Click Image To Enlarge</h4>
         </div>
           <ReactModal
             isOpen={this.state.showModal1}
@@ -72,6 +73,7 @@ class ViewFloorPlans extends Component {
                src={require('../assets/third.svg')}
                onClick={this.openModal2} 
           />
+          <h4 className="img-desc">Click Image To Enlarge</h4>
         </div>
           <ReactModal
             isOpen={this.state.showModal2}
