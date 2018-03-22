@@ -1,0 +1,17 @@
+.nav-bar {
+  background-color: #f8f4ec;
+  padding: 10px;
+  text-align: center;
+}
+
+.nav-bar-links {
+  color: #5a5a5a;
+  font-size: 20px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.nav-bar-links:hover {
+  border-color: transparent;
+  box-shadow: 0 0 0 2px #5d4e48;
+}
