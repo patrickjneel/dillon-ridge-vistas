@@ -32,10 +32,7 @@
 .floor-img {
   height: 300px;
   width: 600px;
-}
-
-button {
-  float: right;
+  cursor: pointer;
 }
 
 .modal-title1 {
@@ -44,6 +41,17 @@ button {
 
 .modal-title2 {
   font-size: 28px;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
 }
 
 
