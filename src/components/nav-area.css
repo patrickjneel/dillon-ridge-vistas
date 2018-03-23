@@ -53,3 +53,33 @@
   padding: 5px;
   text-decoration: none;
 }
+
+@media (max-width: 400px) {
+  .all-info {
+    flex-direction: column;
+    height: 83vh;
+  }
+
+  .welcome-area {
+    padding-bottom: unset;
+    padding-left: unset;
+    padding-top: 55px;
+  }
+
+  .welcome-image {
+    height: 225px;
+    width: 90%;
+    margin-top: 25px;
+    margin: unset;
+  }
+
+  .app-title {
+    font-size: 20px;
+    height: 35px;
+    padding: 20px 0;
+  }
+
+  .button-links {
+    height: 55px;
+  }
+}
