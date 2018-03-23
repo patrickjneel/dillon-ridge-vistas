@@ -47,13 +47,39 @@ class ViewFloorPlans extends Component {
     return (
       <div className="floor-plans">
         <h1 className="floorplan-header">Available Floor Plans</h1>
-        <div className="model">
           <h2 className="floor-title">2 Bedroom - 1 Bathroom</h2>
-          <img className="floor-img" 
-               src={require('../assets/second.svg')}
-               onClick={this.openModal1}
-          />
-          <h4 className="img-desc">Click Image To Enlarge</h4>
+        <div className="model">
+          <div className="left-model">
+            <table>
+              <tr>
+                <td>Bed</td>
+                <td>2</td>
+              </tr>
+              <div className="line-break"></div>
+              <tr>  
+                <td>Bath</td>
+                <td>1</td>
+              </tr>
+              <div className="line-break"></div>
+              <tr>  
+                <td>SQ.FT.</td>
+                <td>985</td>
+              </tr>
+              <div className="line-break"></div>
+              <tr>  
+                <td>Rent</td>
+                <td>$ 1,200</td>
+              </tr>
+              <div className="line-break"></div>
+            </table>
+          </div>
+          <div className="right-model">
+            <img className="floor-img" 
+                 src={require('../assets/second.svg')}
+                 onClick={this.openModal1}
+            />
+            <h4 className="img-desc">Click Image To Enlarge</h4>
+          </div>
         </div>
           <ReactModal
             isOpen={this.state.showModal1}
@@ -68,13 +94,39 @@ class ViewFloorPlans extends Component {
             />
           </ReactModal>
 
+        <h2 className="floor-title">2 Bedroom - 2 Bathroom</h2>
         <div className="model">
-          <h2 className="floor-title">2 Bedroom - 2 Bathroom</h2>
+          <div className="left-model">
+            <table>
+              <tr>
+                <td>Bed</td>
+                <td>2</td>
+              </tr>
+              <div className="line-break"></div>
+              <tr>  
+                <td>Bath</td>
+                <td>2</td>
+              </tr>
+              <div className="line-break"></div>
+              <tr>  
+                <td>SQ.FT.</td>
+                <td>985</td>
+              </tr>
+              <div className="line-break"></div>
+              <tr>  
+                <td>Rent</td>
+                <td>$ 1,200</td>
+              </tr>
+              <div className="line-break"></div>
+            </table>
+          </div>
+          <div className="right-model">
           <img className="floor-img" 
                src={require('../assets/third.svg')}
                onClick={this.openModal2} 
           />
           <h4 className="img-desc">Click Image To Enlarge</h4>
+         </div>
         </div>
           <ReactModal
             isOpen={this.state.showModal2}
