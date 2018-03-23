@@ -51,6 +51,7 @@ class ViewFloorPlans extends Component {
         <div className="model">
           <div className="left-model">
             <table>
+              <div className="line-break"></div>
               <tr>
                 <td>Bed</td>
                 <td>2</td>
@@ -98,6 +99,7 @@ class ViewFloorPlans extends Component {
         <div className="model">
           <div className="left-model">
             <table>
+              <div className="line-break"></div>
               <tr>
                 <td>Bed</td>
                 <td>2</td>
