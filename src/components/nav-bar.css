@@ -16,12 +16,12 @@
 }
 
 .nav-bar-links:hover {
-  /*border-top: 2px solid red;*/
-  /*border-bottom: 2px solid red;*/
-  /*border-color: transparent;*/
-  /*box-shadow: 0 0 0 2px red;*/
-
   box-shadow: inset 0 -1px 0 0 red, inset 0 1px 0 0 red;
   color: #af362b;
 
+}
+
+.nav-bar-links:focus {
+  box-shadow: inset 0 -1px 0 0 red, inset 0 1px 0 0 red;
+  color: #af362b;
 }
