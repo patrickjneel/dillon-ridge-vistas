@@ -10,7 +10,7 @@
   width: 100%;
 }
 
-@media (min-width: 400px) {
+@media (max-width: 400px) {
   .top {
     height: 75px;
   }
