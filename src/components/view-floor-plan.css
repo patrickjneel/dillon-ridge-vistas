@@ -80,7 +80,7 @@ td {
     cursor: pointer;
 }
 
-@media (min-width: 400px) {
+@media (max-width: 400px) {
   .floorplan-header {
     font-size: 28px;
   }
