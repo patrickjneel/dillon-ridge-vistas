@@ -38,4 +38,15 @@
   .nav-bar-links {
     margin: unset;
   }
+
+  .nav-bar-links:hover {
+  box-shadow: unset;
+  color: #00abf0;
+
+}
+
+.nav-bar-links:focus {
+  box-shadow: unset;
+  color: #00abf0;
+}
 }
