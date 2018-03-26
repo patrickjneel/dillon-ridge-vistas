@@ -55,6 +55,9 @@ li {
   .contacts {
     font-size: 24px;
   }
+  .right-side {
+    width: 52%;
+  }
 }
 
 @media (max-width: 745px) {
