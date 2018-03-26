@@ -86,7 +86,7 @@ td {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 1119px) {
   .floorplan-header {
     font-size: 28px;
   }
