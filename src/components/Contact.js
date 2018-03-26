@@ -19,6 +19,7 @@ const Contact = () => {
         <div className="right-side">
             <h3 className="contacts">(970) - 468 - 5678</h3>
             <h3 className="contacts">dillon.ridge.vistas@mail.com</h3>
+            <h3 className="contacts">1234 Dillon Ridge Rd Dillon, CO</h3>
           </div>
       </div>
     </div>
