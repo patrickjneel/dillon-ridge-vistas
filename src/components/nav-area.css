@@ -3,7 +3,7 @@
   height: 125px;
 }
 
-.all-info {
+.welcome-all-info {
   display: flex;
   flex-direction: row;
   height: 73vh;
@@ -55,9 +55,9 @@
 }
 
 @media (max-width: 400px) {
-  .all-info {
+  .welcome-all-info {
     flex-direction: column;
-    height: 83vh;
+    height: unset;
   }
 
   .welcome-area {

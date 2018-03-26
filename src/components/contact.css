@@ -7,7 +7,7 @@
 .contact-info {
   align-items: center;
   background-color: #f8f4ec;
-  height: 68vh;
+  height: 100%;
 }
 
 .all-info {
@@ -22,7 +22,7 @@
   width: 50%;
 }
 
-.line-break {
+.contact-line-break {
   display: none;
 }
 
@@ -51,6 +51,7 @@ li {
 
   .all-info {
     display: flex;
+    flex-direction: column;
     align-items: center;
     height: 69vh;
   }
@@ -64,7 +65,7 @@ li {
     font-size: 16px;
   }
 
-  .line-break {
+  .contact-line-break {
     display: inline-block;
     border-bottom: 1.5px solid #00abf0;
     opacity: 0.4;

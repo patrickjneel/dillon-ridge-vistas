@@ -5,7 +5,7 @@ import './nav-area.css';
 const NavArea = () => {
   return (
     <div>
-      <div className="all-info">
+      <div className="welcome-all-info">
         <div className="welcome-area">
         <div className="welcome-image"></div>
         </div>
