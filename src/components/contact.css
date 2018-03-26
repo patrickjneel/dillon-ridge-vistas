@@ -13,10 +13,12 @@
 .all-info {
   display: flex;
   flex-direction: row;
+  height: 60vh;
   width: 100%;
 }
 
 .left-side {
+  align-items: center;
   display: flex;
   justify-content: center;
   width: 50%;
@@ -27,8 +29,10 @@
 }
 
 .right-side {
+  align-items: center;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   width: 50%;
 }
 
@@ -47,6 +51,38 @@ li {
   text-align: center;
 }
 
+@media (max-width: 875px) {
+  .contacts {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 745px) {
+  .all-info {
+    flex-direction: column;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left-side {
+    padding-bottom: 15px;
+    width: 75%;
+  }
+
+  .right-side {
+    padding-top: 15px;
+    width: 75%;
+  }
+
+  .contact-line-break {
+    display: inline-block;
+    border-bottom: 1.5px solid #00abf0;
+    opacity: 0.4;
+    width: 90%;
+  }
+}
+
 @media (max-width: 400px) {
 
   .all-info {
@@ -58,6 +94,7 @@ li {
 
   .left-side {
     margin-bottom: 25px;
+    padding-bottom: 15px;
     width: 90%;
   }
 
@@ -74,6 +111,7 @@ li {
 
   .right-side {
     margin-top: 25px;
+    padding-top: 15px;
     width: 90%;
   }
 
@@ -81,4 +119,3 @@ li {
     font-size: 18px;
   }
 }
-

@@ -82,4 +82,12 @@
   .button-links {
     height: 55px;
   }
+
+  .info-area {
+    padding-bottom: 15px;
+  }
+
+  .nav-links {
+    height: fit-content;
+  }
 }
