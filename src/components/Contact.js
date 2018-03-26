@@ -15,6 +15,7 @@ const Contact = () => {
             <li>Dog Friendly Units Available</li> 
           </ul>
         </div>
+        <div className="line-break"></div>
         <div className="right-side">
             <h3 className="contacts">(970) - 468 - 5678</h3>
             <h3 className="contacts">dillon.ridge.vistas@mail.com</h3>
