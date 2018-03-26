@@ -5,21 +5,22 @@ const Contact = () => {
   return (
     <div className="contact-info">
       <h1 className="contact-header">Contact Us</h1>
-      <form className="postcard" action="">
-     
-  <div className="receiver absolute">
-    <label className="label">Phone:</label>
-    <span className="phone">970-CALL-STEV</span>
-  </div>
-  <div className="sender absolute">
-    <label className="label">Email:</label>
-    <span className="phone">Stevie@aol.com</span>
-  </div>
-  <div className="location absolute">
-    <label className="label">Location:</label>
-    <span className="phone">12345 Dillon, CO</span>
-  </div>
-</form>
+      <div className="all-info">
+        <div className="left-side">
+          <ul>
+            <li>Prices from $1,750 - $2,300 Per Month</li> 
+            <li>Fee Required For Application</li>
+            <li>All Utilities Included</li>
+            <li>1 Year Lease Required</li>
+            <li>Dog Friendly Units Available</li> 
+          </ul>
+        </div>
+        <div className="line-break"></div>
+        <div className="right-side">
+            <h3 className="contacts">(970) - 468 - 5678</h3>
+            <h3 className="contacts">dillon.ridge.vistas@mail.com</h3>
+          </div>
+      </div>
     </div>
   )
 }

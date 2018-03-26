@@ -1,47 +1,83 @@
 .contact-header {
   margin: 10px;
   padding: 10px;
+  text-align: center;
 }
 
 .contact-info {
-  background-color: #f8f4ec;
   align-items: center;
+  background-color: #f8f4ec;
+  height: 68vh;
+}
+
+.all-info {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.left-side {
   display: flex;
   justify-content: center;
+  width: 50%;
+}
+
+.line-break {
+  display: none;
+}
+
+.right-side {
+  display: flex;
   flex-direction: column;
+  width: 50%;
 }
 
-.absolute {
-  position: absolute;
-}
-.phone {
-  background: transparent;
-  border: none;
-  margin-left: 10px;
-  width: 240px;
-  font-size: 0.8em;
-  letter-spacing: 2px;
-  padding: 5px;
-}
-.postcard {
-  position: relative;
-  width: 740px;
-  height: 498px;
-  margin: 15px 0px;
-  background: url('https://developer.mozilla.org/files/4151/background.jpg'); 
-  border: 2px solid #ccc;
-  box-shadow: 7px 7px 20px #555;
-}
-.receiver {
-  right: 100px;
-  top: 191px;
-}
-.sender {
-  right: 100px;
-  top: 237px;
+ul {
+  list-style: none;
 }
 
-.location {
-  right: 60px;
-  top: 291px;
+li {
+  font-size: 24px;
+  padding: 10px;
 }
+
+.contacts {
+  font-size: 28px;
+  padding: 15px;
+  text-align: center;
+}
+
+@media (max-width: 400px) {
+
+  .all-info {
+    display: flex;
+    align-items: center;
+    height: unset;
+  }
+
+  .left-side {
+    margin-bottom: 25px;
+    width: 90%;
+  }
+
+  li {
+    font-size: 16px;
+  }
+
+  .line-break {
+    display: inline-block;
+    border-bottom: 1.5px solid #00abf0;
+    opacity: 0.4;
+    width: 90%;
+  }
+
+  .right-side {
+    margin-top: 25px;
+    width: 90%;
+  }
+
+  .contacts {
+    font-size: 18px;
+  }
+}
+
