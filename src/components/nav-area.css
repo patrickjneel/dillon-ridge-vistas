@@ -54,6 +54,22 @@
   text-decoration: none;
 }
 
+@media (max-width: 768px) {
+  .welcome-all-info {
+    flex-direction: column;
+  }
+
+  .welcome-area {
+    padding-top: 75px;
+    padding-left: unset;
+  }
+
+  .welcome-image {
+    margin-left: unset;
+  }
+
+}
+
 @media (max-width: 400px) {
   .welcome-all-info {
     flex-direction: column;
