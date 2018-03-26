@@ -80,6 +80,12 @@ td {
     cursor: pointer;
 }
 
+@media (max-width: 600px) {
+  .img-desc {
+    display: none;
+  }
+}
+
 @media (max-width: 400px) {
   .floorplan-header {
     font-size: 28px;
