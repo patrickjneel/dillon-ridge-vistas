@@ -27,11 +27,11 @@ class ViewFloorPlans extends Component {
   }
 
   openModal1() {
-    this.setState({showModal1: true});
+   return window.innerWidth < 600 ? this.setState({showModal1: false}) : this.setState({showModal1: true});
   }
 
   openModal2() {
-    this.setState({showModal2: true});
+    return window.innerWidth < 600 ? this.setState({showModal2: false}) : this.setState({showModal2: true});
   }
 
   closeModal1() {
@@ -135,7 +135,7 @@ class ViewFloorPlans extends Component {
             onRequestClose={this.closeModal2}
             style={customStyles}
           >
-            <span class="close" onClick={this.closeModal2}>&times;</span>
+            <span className="close" onClick={this.closeModal2}>&times;</span>
             <div className="modal-title2">2 Bedroom - 2 Bathroom</div>
             <img className="modal-img" 
                src={require('../assets/third.svg')} />

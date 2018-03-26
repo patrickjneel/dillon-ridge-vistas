@@ -98,6 +98,10 @@ td {
   .floor-img {
     width: 100%;
   }
+
+  .img-desc {
+    display: none;
+  }
 }
 
 
