@@ -52,7 +52,7 @@ li {
   .all-info {
     display: flex;
     align-items: center;
-    height: unset;
+    height: 60vh;
   }
 
   .left-side {
