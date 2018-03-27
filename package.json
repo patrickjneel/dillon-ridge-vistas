@@ -18,5 +18,5 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://patrickjneel.github.io/dillon-ridge-vistas/"
+  "homepage": "https://patrickjneel.github.io/dillon-ridge-vistas"
 }
