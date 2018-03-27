@@ -64,7 +64,7 @@ li {
   .all-info {
     align-items: center;
     flex-direction: column;
-    height: 63vh;
+    height: 67vh;
     justify-content: center;
   }
 
@@ -80,7 +80,7 @@ li {
 
   .contact-line-break {
     display: inline-block;
-    border-bottom: 1.5px solid #00abf0;
+    border-bottom: 3px solid #00abf0;
     opacity: 0.4;
     width: 90%;
   }
