@@ -11,10 +11,10 @@ class App extends Component {
     return (
       <div className="App">
         <div className="top"></div>
-          <Route path="/" component={NavBar} key="NavBar" />
-          <Route exact path="/" component={NavArea} key="NavArea" />
-          <Route exact path="/viewfloorplans" component={ViewFloorPlans} key="ViewFloorPlans" />
-          <Route exact path="/contact" component={Contact} key="Contact" />
+          <Route path="/dillon-ridge-vistas/" component={NavBar} key="NavBar" />
+          <Route exact path="/dillon-ridge-vistas/" component={NavArea} key="NavArea" />
+          <Route exact path="/dillon-ridge-vistas/viewfloorplans" component={ViewFloorPlans} key="ViewFloorPlans" />
+          <Route exact path="/dillon-ridge-vistas/contact" component={Contact} key="Contact" />
         <div className="top"></div>
       </div>
     );
