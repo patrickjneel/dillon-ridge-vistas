@@ -80,7 +80,7 @@ td {
     cursor: pointer;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .img-desc {
     display: none;
   }
@@ -103,10 +103,6 @@ td {
 
   .floor-img {
     width: 100%;
-  }
-
-  .img-desc {
-    display: none;
   }
 }
 
