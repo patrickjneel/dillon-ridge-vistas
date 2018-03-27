@@ -54,7 +54,7 @@
   text-decoration: none;
 }
 
-@media (max-width: 935px) {
+@media (max-width: 1000px) {
   .welcome-all-info {
     flex-direction: column;
   }
