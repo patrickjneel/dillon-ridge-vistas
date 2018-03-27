@@ -27,11 +27,11 @@ class ViewFloorPlans extends Component {
   }
 
   openModal1() {
-   return window.innerWidth < 600 ? this.setState({showModal1: false}) : this.setState({showModal1: true});
+   return window.innerWidth < 700 ? this.setState({showModal1: false}) : this.setState({showModal1: true});
   }
 
   openModal2() {
-    return window.innerWidth < 600 ? this.setState({showModal2: false}) : this.setState({showModal2: true});
+    return window.innerWidth < 700 ? this.setState({showModal2: false}) : this.setState({showModal2: true});
   }
 
   closeModal1() {
