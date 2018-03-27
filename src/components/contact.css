@@ -60,12 +60,12 @@ li {
   }
 }
 
-@media (max-width: 745px) {
+@media (max-width: 768px) {
   .all-info {
-    flex-direction: column;
-    height: fit-content;
-    justify-content: center;
     align-items: center;
+    flex-direction: column;
+    height: 63vh;
+    justify-content: center;
   }
 
   .left-side {
