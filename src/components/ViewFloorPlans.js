@@ -16,7 +16,7 @@ const customStyles = {
 const responsiveStyles = {
   content : {
     border: '4px solid #00abf0',
-    height: 'unset',
+    height: 'fit-content',
     left: '50%',
     top: '50%',
     transform: 'translate(-50%, -50%)',
