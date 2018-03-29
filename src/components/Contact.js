@@ -3,7 +3,6 @@ import './contact.css'
 
 const Contact = () => {
   if(window.innerWidth < 700) {
-    console.log(window.innerWidth)
     return (
       <div className="contact-info">
         <h1 className="contact-header">Contact Us</h1>
@@ -20,10 +19,10 @@ const Contact = () => {
           <div className="contact-line-break"></div>
           <div className="right-side">
           <a href="tel:970-468-7813" className="email-contact">
-                Phone Directly
+                970-468-7813
               </a>
               <a href="mailto:dillon.ridge.vistas@steven.com" className="email-contact">
-                Email Directly
+                dillon.ridge.vistas@steven.com
               </a>
               <h3 className="contacts">1234 Dillon Ridge Rd Dillon, CO</h3>
             </div>
@@ -48,9 +47,10 @@ const Contact = () => {
           <div className="right-side">
              <h3 className="contacts">Call: 970-468-7813</h3>
              <a href="mailto:dillon.ridge.vistas@steven.com" className="email-contact">
-                Email Directly
+                dillon.ridge.vistas@steven.com
               </a>
               <h3 className="contacts">1234 Dillon Ridge Rd Dillon, CO</h3>
+                <a href="https://www.google.com/maps/@?api=1&map_action=map&center=39.618196, -106.039894&zoom=14" target="_blank">Click here for map</a>
             </div>
         </div>
       </div>
