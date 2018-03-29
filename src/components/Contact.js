@@ -18,7 +18,9 @@ const Contact = () => {
         <div className="contact-line-break"></div>
         <div className="right-side">
             <h3 className="contacts">(970) - 468 - 5678</h3>
-            <h3 className="contacts">dillon.ridge.vistas@mail.com</h3>
+            <a href="mailto:dillon.ridge.vistas@steven.com" className="email-contact">
+              Email Directly
+            </a>
             <h3 className="contacts">1234 Dillon Ridge Rd Dillon, CO</h3>
           </div>
       </div>
