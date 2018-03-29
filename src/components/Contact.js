@@ -17,7 +17,9 @@ const Contact = () => {
         </div>
         <div className="contact-line-break"></div>
         <div className="right-side">
-            <h3 className="contacts">(970) - 468 - 5678</h3>
+            <a href="tel:970-468-7813" className="email-contact">
+              Phone Directly
+            </a>
             <a href="mailto:dillon.ridge.vistas@steven.com" className="email-contact">
               Email Directly
             </a>
