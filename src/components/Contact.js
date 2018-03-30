@@ -26,6 +26,7 @@ const Contact = () => {
               </a>
               <h3 className="contacts">1234 Dillon Ridge Rd Dillon, CO</h3>
             </div>
+            <a href="https://www.google.com/maps/@?api=1&map_action=map&center=39.618196, -106.039894&zoom=14" target="_blank">Click here for map</a>
         </div>
       </div>
     ) 
