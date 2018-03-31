@@ -58,6 +58,11 @@ li {
   text-align: center;
 }
 
+.map-link {
+  font-size: 22px;
+  padding: 10px 0px;
+}
+
 @media (max-width: 875px) {
   .contacts {
     font-size: 24px;
@@ -130,6 +135,10 @@ li {
   }
 
   .email-contact {
+    font-size: 18px;
+  }
+
+  .map-link {
     font-size: 18px;
   }
 }
