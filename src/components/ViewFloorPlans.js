@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './view-floor-plan.css';
 import ReactModal from 'react-modal';
+///line-height for td's
+//put floorplan name in the box above specifics.
 
 const customStyles = {
   content : {
