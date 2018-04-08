@@ -63,7 +63,7 @@ class ViewFloorPlans extends Component {
         <h1 className="floorplan-header">Available Floor Plans</h1>
         <div className="model">
           <div className="left-model">
-          <h3 className="floor-title">2 Bedroom - 1 Bathroom</h3>
+            <h3 className="floor-title">2 Bedroom - 1 Bathroom</h3>
             <table>
               <div className="line-break"></div>
               <tr>
@@ -111,7 +111,7 @@ class ViewFloorPlans extends Component {
 
         <div className="model">
           <div className="left-model">
-        <h2 className="floor-title">2 Bedroom - 2 Bathroom</h2>
+            <h2 className="floor-title">2 Bedroom - 2 Bathroom</h2>
             <table>
               <div className="line-break"></div>
               <tr>
@@ -162,7 +162,7 @@ class ViewFloorPlans extends Component {
           <h1 className="floorplan-header">Available Floor Plans</h1>
           <div className="model">
             <div className="left-model">
-            <h2 className="floor-title">2 Bedroom - 1 Bathroom</h2>
+              <h2 className="floor-title">2 Bedroom - 1 Bathroom</h2>
               <table>
                 <div className="line-break"></div>
                 <tr>
@@ -210,7 +210,7 @@ class ViewFloorPlans extends Component {
 
           <div className="model">
             <div className="left-model">
-          <h2 className="floor-title">2 Bedroom - 2 Bathroom</h2>
+              <h2 className="floor-title">2 Bedroom - 2 Bathroom</h2>
               <table>
                 <div className="line-break"></div>
                 <tr>
