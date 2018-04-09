@@ -111,7 +111,7 @@ class ViewFloorPlans extends Component {
 
         <div className="model">
           <div className="left-model">
-            <h2 className="floor-title">2 Bedroom - 2 Bathroom</h2>
+            <h3 className="floor-title">2 Bedroom - 2 Bathroom</h3>
             <table>
               <div className="line-break"></div>
               <tr>
@@ -162,7 +162,7 @@ class ViewFloorPlans extends Component {
           <h1 className="floorplan-header">Available Floor Plans</h1>
           <div className="model">
             <div className="left-model">
-              <h2 className="floor-title">2 Bedroom - 1 Bathroom</h2>
+              <h3 className="floor-title">2 Bedroom - 1 Bathroom</h3>
               <table>
                 <div className="line-break"></div>
                 <tr>
@@ -199,8 +199,7 @@ class ViewFloorPlans extends Component {
               isOpen={this.state.showModal1}
               onRequestClose={this.closeModal1}
               style={customStyles}
-            >
-              
+            > 
               <span class="close" onClick={this.closeModal1}>&times;</span>
               <div className="modal-title1">2 Bedroom - 1 Bathroom</div>
               <img className="modal-img" 
@@ -210,7 +209,7 @@ class ViewFloorPlans extends Component {
 
           <div className="model">
             <div className="left-model">
-              <h2 className="floor-title">2 Bedroom - 2 Bathroom</h2>
+              <h3 className="floor-title">2 Bedroom - 2 Bathroom</h3>
               <table>
                 <div className="line-break"></div>
                 <tr>

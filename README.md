@@ -1,5 +1,7 @@
 # Dillon Ridge Vistas
 
+![ScreenShot](./screenshot.png)
+
 ## Overview 
 Dillon Ridge Vistas is a new apartment development in Dillon, CO. The site is pretty simple showing available floor plans, information about different floor plans, and contact information.
 
