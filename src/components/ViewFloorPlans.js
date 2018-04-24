@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import './view-floor-plan.css';
 import ReactModal from 'react-modal';
-///line-height for td's
-//put floorplan name in the box above specifics.
 
 const customStyles = {
   content : {
@@ -83,7 +81,7 @@ class ViewFloorPlans extends Component {
               <div className="line-break"></div>
               <tr>  
                 <td>Rent</td>
-                <td>$ 1,200</td>
+                <td>$1,200</td>
               </tr>
               <div className="line-break"></div>
             </table>
@@ -131,7 +129,7 @@ class ViewFloorPlans extends Component {
               <div className="line-break"></div>
               <tr>  
                 <td>Rent</td>
-                <td>$ 1,200</td>
+                <td>$1,200</td>
               </tr>
               <div className="line-break"></div>
             </table>
@@ -182,7 +180,7 @@ class ViewFloorPlans extends Component {
                 <div className="line-break"></div>
                 <tr>  
                   <td>Rent</td>
-                  <td>$ 1,200</td>
+                  <td>$1,200</td>
                 </tr>
                 <div className="line-break"></div>
               </table>
@@ -229,7 +227,7 @@ class ViewFloorPlans extends Component {
                 <div className="line-break"></div>
                 <tr>  
                   <td>Rent</td>
-                  <td>$ 1,200</td>
+                  <td>$1,200</td>
                 </tr>
                 <div className="line-break"></div>
               </table>
