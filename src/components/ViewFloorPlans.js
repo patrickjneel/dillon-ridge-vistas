@@ -81,7 +81,7 @@ class ViewFloorPlans extends Component {
               <div className="line-break"></div>
               <tr>  
                 <td>Rent</td>
-                <td>$ 1,200</td>
+                <td>$1,200</td>
               </tr>
               <div className="line-break"></div>
             </table>
@@ -129,7 +129,7 @@ class ViewFloorPlans extends Component {
               <div className="line-break"></div>
               <tr>  
                 <td>Rent</td>
-                <td>$ 1,200</td>
+                <td>$1,200</td>
               </tr>
               <div className="line-break"></div>
             </table>
@@ -180,7 +180,7 @@ class ViewFloorPlans extends Component {
                 <div className="line-break"></div>
                 <tr>  
                   <td>Rent</td>
-                  <td>$ 1,200</td>
+                  <td>$1,200</td>
                 </tr>
                 <div className="line-break"></div>
               </table>
@@ -227,7 +227,7 @@ class ViewFloorPlans extends Component {
                 <div className="line-break"></div>
                 <tr>  
                   <td>Rent</td>
-                  <td>$ 1,200</td>
+                  <td>$1,200</td>
                 </tr>
                 <div className="line-break"></div>
               </table>
