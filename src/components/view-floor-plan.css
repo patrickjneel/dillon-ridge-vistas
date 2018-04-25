@@ -25,6 +25,7 @@
   color: #777777;
   font-size: 25px;
   font-weight: 100;
+  margin-top: 5px;
 }
 
 .left-model {
@@ -118,6 +119,9 @@ td {
 @media (max-width: 400px) {
   .floorplan-header {
     font-size: 25px;
+  }
+  .floor-title {
+    margin-top: 
   }
 }
 
